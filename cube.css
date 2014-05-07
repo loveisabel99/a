@@ -1,0 +1,123 @@
+
+	#h { 
+	font-family: Lucida Grande;
+	font-size: 12px;
+	font-weight: bold;
+	}
+	
+	li { 
+	font-family: Lucida Grande;
+	font-size: 10px;
+	}
+	
+    #experiment {
+      -webkit-perspective: 800;
+      -webkit-perspective-origin: 50% 200px;
+
+      -moz-perspective: 800;
+      -moz-perspective-origin: 50% 200px;
+    }
+
+    #cube {
+      position: relative;
+      margin: 100px auto 0;
+      height: 400px;
+      width: 400px;
+      -webkit-transition: -webkit-transform 2s linear;
+      -webkit-transform-style: preserve-3d;
+
+      -moz-transition: -moz-transform 2s linear;
+      -moz-transform-style: preserve-3d;
+    }
+
+    .face {
+      position: absolute;
+      height: 360px;
+      width: 360px;
+      padding: 20px;
+      background-color: rgba(50, 50, 50, 0.7);
+      font-size: 27px;
+      line-height: 1em;
+      color: #fff;
+      border: 1px solid #555;
+      border-radius: 5px;
+    }
+
+    #cube .one  {
+      -webkit-transform: rotateX(90deg) translateZ(200px);
+      -moz-transform: rotateX(90deg) translateZ(200px);
+      text-align: center;
+      font-size:40px;
+      font-family: DN Kidletters;
+      color: violet;
+     
+    }
+
+    #cube .two {
+      -webkit-transform: translateZ(200px);
+      -moz-transform: translateZ(200px);
+      font-family:Lucida Grande;
+      text-align: center;
+      color: #fdfd96;
+      font-size:23px;
+      text-shadow:0px -15px 0 #fe2192; 
+      background: gray;
+    }
+
+    #cube .three {
+      -webkit-transform: rotateY(90deg) translateZ(200px);
+      -moz-transform: rotateY(90deg) translateZ(200px);
+      font-family: American Typewriter;
+      text-align:center;
+      text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+      background:#000000;
+    }
+
+    #cube .four {
+      -webkit-transform: rotateY(180deg) translateZ(200px);
+      -moz-transform: rotateY(180deg) translateZ(200px);
+      text-align: center;
+      font-family: Gill Sans;
+      color: orange;
+      font-size: 45px;
+      text-shadow: 0 6px 4px #85c226,
+		     0 -5px 4px #fe2192,
+		     0 -5px 4px #f7c200;
+    }
+
+    #cube .five {
+      -webkit-transform: rotateY(-90deg) translateZ(200px);
+      -moz-transform: rotateY(-90deg) translateZ(200px);
+      font-family: Lucida Grande; 
+      text-decoration: none;
+      text-align: center;
+      color: white; 
+      font-size: 60px;
+    }
+
+    #cube .six {
+      -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+      -moz-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+      font-family: Lucida Grande; 
+		color: pink; 
+		font-size:50px;
+		text-align: center;
+		text-shadow: 8px 8px 0 rgba(255,0,180,0.5);
+    }
+    div div div span: after { 
+    	content: "PRESENT";
+    	position: absolute;
+		left: 8px; top: 6px; /* These are aligning it to be where we’d like relative to the last word */
+		color: rgba (255,0,0,0.5); 
+    	}
+    div div div span {
+    	display: inline;
+		position: relative;
+		letter-spacing: -5px; /* This will push it together giving us a nice 3D vibe */
+		color: rgba(0,0,255,0.5); /* This will give us a blue at 50% opacity */
+	}
+	body {
+		background-color: #fdfd96;
+		}
+
+	
