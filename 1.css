@@ -1,0 +1,23 @@
+
+li { 
+	font-size: 20px; 
+	margin: 0; 
+	float: left; 
+	color: #999999; 
+	font-family: Impact, Arial, Verdana; 
+	text-transform: uppercase; 
+	border-bottom: #CC0000 7px solid; 
+	font-weight: 50; 
+	}
+body { 
+	background-color: #fdfd96;
+	}
+	
+#h { 
+	font-family:"Trebuchet MS", Garamond, Georgia; 
+	line-height: .88em; 
+	border-bottom: #990000 1px solid; 
+	color: #990000;
+	letter-spacing: -2px; 
+	font-size:50px;
+
