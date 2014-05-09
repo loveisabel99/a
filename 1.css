@@ -22,9 +22,10 @@ body {
 	letter-spacing: -2px; 
 	font-size:50px;
 
-#j { 
-	font-size: 36px; font-weight: 100;
+.j num_blend { 
+	font-size: 36px; 
+	font-weight: 100;
 	} 
-#j span { 
+.j num_blend span { 
 	font-size: 24px; line-height: 1em; font-style: italic; font-weight: bold; letter-spacing: 2px;
 	}
