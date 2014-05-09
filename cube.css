@@ -6,9 +6,11 @@
 	text-align: center;
 	}
 	
-	li { 
+	a { 
 	font-family: Lucida Grande;
-	font-size: 10px;
+	font-size: 15px;
+	text-align: right; 
+	
 	}
 	
     #experiment {
