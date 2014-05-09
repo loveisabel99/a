@@ -21,11 +21,11 @@ body {
 	color: #990000;
 	letter-spacing: -2px; 
 	font-size:50px;
-
-.j num_blend { 
-	font-size: 36px; 
-	font-weight: 100;
-	} 
-.j num_blend span { 
-	font-size: 24px; line-height: 1em; font-style: italic; font-weight: bold; letter-spacing: 2px;
+#j { 
+	font-family: Lucida Grande;
+	color: black; 
+	font-size: 15px; 
+	text-align: center; 
+	
 	}
+	
