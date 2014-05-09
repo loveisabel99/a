@@ -1,13 +1,14 @@
 
 li { 
 	font-size: 20px; 
-	margin: 0; 
+	margin: 5; 
 	float: left; 
 	color: #999999; 
 	font-family: Impact, Arial, Verdana; 
 	text-transform: uppercase; 
 	border-bottom: #CC0000 7px solid; 
 	font-weight: 50; 
+	letter-spacing: 2px; 
 	}
 body { 
 	background-color: #fdfd96;
@@ -21,3 +22,9 @@ body {
 	letter-spacing: -2px; 
 	font-size:50px;
 
+#j { 
+	font-size: 36px; font-weight: 100;
+	} 
+#j span { 
+	font-size: 24px; line-height: 1em; font-style: italic; font-weight: bold; letter-spacing: 2px;
+	}
