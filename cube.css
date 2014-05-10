@@ -99,11 +99,10 @@
     }
 	
 	#j { 
-	font-size: 45px;  
+	font-size: 30px;  
 	font-family: Lucida Grande; 
 	text-align: center;
-	
-	
+	color: yellow;
 	}
 	
     #cube .six {
