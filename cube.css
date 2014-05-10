@@ -97,7 +97,11 @@
       color: white; 
       font-size: 60px;
     }
-
+	#j { 
+	font-size: 60px;  
+	font-family: Lucida Grande; 
+	}
+	
     #cube .six {
       -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
       -moz-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
