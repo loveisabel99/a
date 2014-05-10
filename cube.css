@@ -97,9 +97,13 @@
       color: white; 
       font-size: 60px;
     }
+	
 	#j { 
 	font-size: 60px;  
 	font-family: Lucida Grande; 
+	text-align: center;
+	color: white; 
+	
 	}
 	
     #cube .six {
