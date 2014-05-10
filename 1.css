@@ -28,4 +28,19 @@ body {
 	text-align: center; 
 	
 	}
-	
+h1 {
+	font-size: 36px; 
+	font-weight: 100; 
+	font-family: Optima,Lucida Grande, American Typewriter; 
+	text-align: center;
+	}
+
+h1 span { 
+	font-size: 24px; 
+	line-height: 1em; 
+	font-style: italic; 
+	font-weight: bold; 
+	letter-spacing: 2px;
+	text-align: center; 
+	font-family: Lucida Grande, American Typewriter;
+		}
